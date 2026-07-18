@@ -33,7 +33,7 @@ img {
 }
 
 .purple {
-  color: #7342d6; 
+  color: #7342d6;
 }
 
 .logo {
@@ -161,8 +161,6 @@ HIGHLIGHTS
 
 .highlight__para {
   text-align: center;
-  display: flex;
-  font-size: 10px;
 }
 
 .highlight__img {
