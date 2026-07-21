@@ -37,6 +37,10 @@ p {
   margin: 0 auto;
 }
 
+.violet {
+  color: violet;
+}
+
 .blue {
   color: blue;
 }
@@ -230,6 +234,53 @@ FEATURES
 */
 
 #features {
-  height: 1000px;
+  padding-top: 8vw;
   background-color: skyblue;
+}
+
+.books {
+  display: flex;
+}
+
+.book {
+  width: 25%;
+  padding: 24px;
+}
+
+.book__img {
+  max-height: 380px;
+  transition: all 300kms ease;
+  cursor: no-allowed;
+}
+
+.book__img--wrapper {
+  margin-bottom: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+}
+
+.book:hover .book__img {
+  transform: scale(1.03);
+}
+
+.book__title {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.book__title:hover {
+  text-decoration: underline;
+  cursor: not-allowed;
+}
+
+.book__ratings {
+  margin-bottom: 8px;
+  color: yellow;
+}
+
+.book__price--normal {
+  text-decoration: line-through;
+  padding-right: 6px;
+  color: violet;
 }
