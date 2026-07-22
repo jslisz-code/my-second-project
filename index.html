@@ -18,10 +18,27 @@
           <ul class="nav__links">
             <li><a href="#" class="nav__link">Home</a></li>
             <li><a href="#" class="nav__link">Contact</a></li>
-            <li>
-              <a href="#" class="nav__link nav__link--primary"
-                ><span class="violet">Books</span></a
-              >
+            <li><a href="#" class="nav__link nav__link--primary">
+                <span class="violet">Books</span></a>
+            </li>
+          </ul>
+        </div>
+        <button class="btn__menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="menu__backdrop">
+          <button class="btn__menu btn__menu--close">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul>
+            <li class="menu__list">
+              <a href="#" class="menu__link">Home</a>
+            </li>
+            <li class="menu__list">
+              <a href="#features" class="menu__link">Books</a>
+            </li>
+            <li class="menu__list">
+              <a class="menu__link no cursor">Contacts</a>
             </li>
           </ul>
         </div>
@@ -30,7 +47,7 @@
         <div class="header__container">
           <div class="header__description">
             <h1>
-              <span class="purple">America's</span> most awarded online library
+              America's most awarded online library
               platform!
             </h1>
             <h2>
@@ -178,7 +195,9 @@
         <div class="container">
           <div class="row row__column">
             <h2>Explore more <span class="purple">Books</span></h2>
-            <button class="btn">Browse books</button>
+            <a href="#features">
+              <button class="btn">Browse books</button>
+            </a>
           </div>
         </div>
       </section>
